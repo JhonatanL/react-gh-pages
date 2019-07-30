@@ -18,10 +18,13 @@ class Buscador extends Component {
                 <div className="row">
                     
                     <div className="form-group col-md-8">
-                        <input ref={this.BusquedaRef} type="text" className="form-control form-control-lg" placeholder="Busca tu Imagen..." />
+                        <label>
+                            Busca tu Imagen
+                            <input ref={this.BusquedaRef} type="text" className="form-control form-control-lg" placeholder="Busca tu Imagen..." />
+                        </label>
                     </div>
                     <div className="form-group col-md-4">
-                        <input type="submit" className="btn btn-lg btn-danger btn-block" value="Buscar"/>
+                        <input type="submit" className="btn btn-lg btn-danger btn-block" value="Buscar" id="buscador"/>
                     </div>
                 </div>
             </form>
